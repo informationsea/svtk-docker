@@ -1,10 +1,10 @@
-# svtools-docker
+# svtk-docker
 
-svtools/svtyper Docker Container based on debian-slim
+svtk Docker Container based on debian-slim
 
-* [GitHub](https://github.com/informationsea/svtools-docker)
-* [DockerHub](https://hub.docker.com/r/informationsea/svtools)
+* [GitHub](https://github.com/informationsea/svtk-docker)
+* [DockerHub](https://hub.docker.com/r/informationsea/svtk)
 
 ## Upstream Project
 
-* [svtools](https://github.com/hall-lab/svtools)
+* [svtk](https://github.com/talkowski-lab/svtk)

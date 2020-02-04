@@ -36,6 +36,7 @@ COPY --from=htslib-build /usr/local /usr/local
 WORKDIR /opt
 RUN git clone https://github.com/talkowski-lab/svtk.git
 WORKDIR /opt/svtk
+RUN git checkout 594a667
 RUN pip install cython numpy scipy pysam>=0.11.2.2 pybedtools natsort boto3 pandas sklearn
 RUN pip install -e .
 ADD run.sh /
